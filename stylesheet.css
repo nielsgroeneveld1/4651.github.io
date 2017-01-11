@@ -1,0 +1,180 @@
+body {
+  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/05/Gradient-Computer-Background.jpg");
+  background-repeat: repeat-x;
+}
+
+
+#header {
+  position:relative;
+  top: -10px
+  background-color: #FF0000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: auto%;
+}
+
+
+li {
+    float: left;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+ }
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+
+h5 {
+  text-align: center;
+  color: lightgrey;
+
+
+
+
+}
+
+
+#right {
+  width:20%;
+  float:right;
+}
+
+
+
+
+#left {
+  width:50%;
+  float:left;
+}
+
+
+
+
+h3 {
+  color: white;
+  border-bottom: 2px solid #20B2AA;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+div.img:hover {
+    border: 1px solid #B0C4DE;
+}
+
+
+
+
+div.img img {
+    width: 300px;
+    height: 200px;
+}
+div.id id {
+  text-align:center;
+  color: black;
+}
+
+
+table {
+  border-collapse: collapse;
+  width:100%;
+}
+
+
+th, td {
+  text-align:center;
+  padding: 8px;
+}
+
+
+tr:nth-child(even){background-color: #87CEEB}
+
+
+a:hover {
+  color:white;
+}
+
+
+#footer {
+  border: 1px solid #333;
+  background-color: #333;
+  color: white;
+}
+
+
+
+
+img {
+  width:300px;
+  height:180px;
+}
+
+
+h4 {
+  color:#DCDCDC;
+}

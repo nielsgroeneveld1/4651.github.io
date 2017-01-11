@@ -1,0 +1,128 @@
+body {
+  background-image: url("http://www.clipartkid.com/images/569/blue-background-scrub-masters-commercial-cleaning-inc-B7Uop0-clipart.jpg");
+  background-repeat: repeat-x;
+}
+#header {
+  position:relative;
+  top: -10px
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: auto%;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+ }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  text-align: center;
+  color: lightgrey;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.left{
+  position: absolute;
+   left: 400px;
+}
+
+.right {
+  position:absolute;
+  right: 400px
+}
+
+.center {
+  position:absolute;
+  left: 610px;
+}
+
+div.table a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+div.table a:hover, a:active {
+    background-color: orange;
+}
